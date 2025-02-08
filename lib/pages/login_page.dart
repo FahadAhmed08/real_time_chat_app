@@ -22,7 +22,7 @@ class _LoginPageState extends State<LoginPage> {
   String? email, password;
   @override
   void initState() {
-    // TODO: implement initState
+    // TODO: implement initState.
     super.initState();
     _authService = _getIt.get<AuthService>();
     _navigationService = _getIt.get<NavigationService>();
